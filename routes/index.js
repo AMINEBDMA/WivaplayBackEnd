@@ -13,7 +13,7 @@ router.get('/sports', function(req, res, next) {
 });
 
 router.get('/players', function(req, res, next) {
-  res.send(sports);
+  res.send(players);
 });
 
 module.exports = router;
